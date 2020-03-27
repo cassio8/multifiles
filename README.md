@@ -8,7 +8,7 @@
 		text        : 'Imagem',
 		button_text : 'adicionar',
 		file_name   : 'image',
-		url_name	: 'input-image'
+		url_name    : 'input-image'
 	});
 
 É necessário a biblioteca Jquery.
