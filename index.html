@@ -1,0 +1,24 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Component Multiple Files</title>
+
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	
+	<div class="upload-imagens"></div>
+	
+	<script src="jquery.min.js"></script>
+	<script src="multifiles.js"></script>
+
+	<script>
+		$('.upload-imagens').multifiles({
+			text        : 'Imagem',
+			button_text : 'adicionar',
+			file_name   : 'image',
+			url_name	: 'input-image'
+		});
+	</script>
+</body>
+</html>

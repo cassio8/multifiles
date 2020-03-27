@@ -1,0 +1,47 @@
+.multifiles-box {
+	display: inline-block;
+	position: relative;
+	vertical-align: middle;
+	margin: 0 5px 8px 0;
+}
+
+.multifiles-box .multifiles-file {
+	position: absolute;
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	z-index: -1;
+}
+
+.multifiles-box .multifiles-file + label {
+    display: table-cell;
+    vertical-align: middle;
+    width: 130px;
+    height: 130px;
+    color: white;
+    background-color: #e2e2e2;
+	font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+}
+
+.multifiles-box .multifiles-remove {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 20px;
+	height: 20px;
+	color: #fff;
+	background-color: red;
+	border-radius: 50%;
+	text-align: center;
+}
+
+.multifiles-box .multifiles-button {
+	display: inline-block;
+	position: relative;
+	vertical-align: middle;
+	color: blue;
+}
